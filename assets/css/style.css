@@ -33,9 +33,14 @@ main {
     flex-direction: column;
 }
 
+h1 {
+    margin: 40px 20px;
+}
+
 #how-to {
-    background-color: rgba(153, 152, 152, 0.7);
+    background-color: rgba(153, 152, 152, 0.5);
     border-radius: 5%;
+    margin: 20px 20px;
 }
 
 .how-to-text {
@@ -43,10 +48,12 @@ main {
 }
 
 .btn {
-    font-size: 200%;
-    width: 120%;
+    font-size: 150%;
+    width: 100%;
     text-align: center;
     margin-bottom: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
     color: black;
     background-color: darkred;
     text-decoration: none;
