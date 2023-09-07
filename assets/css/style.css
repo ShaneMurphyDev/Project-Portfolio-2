@@ -15,7 +15,7 @@ body {
 
 /*  Main content styling*/
 main {
-    background-color: aqua;
+    background-color: darkslateblue;
     flex: 1 0 auto;
 }
 
@@ -31,6 +31,15 @@ main {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+#how-to {
+    background-color: rgba(153, 152, 152, 0.7);
+    border-radius: 5%;
+}
+
+.how-to-text {
+    text-align: center;
 }
 
 .btn {
