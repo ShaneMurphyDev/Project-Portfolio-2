@@ -10,11 +10,13 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    color: black;
 }
 
 /*  Main content styling*/
 main {
     background-color: aqua;
+    flex: 1 0 auto;
 }
 
 
