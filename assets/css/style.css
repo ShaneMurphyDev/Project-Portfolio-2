@@ -11,11 +11,11 @@ body {
     display: flex;
     flex-direction: column;
     color: black;
+    background-image: linear-gradient(to left, rgb(177, 2, 177), rgb(91, 91, 255));
 }
 
 /*  Main content styling*/
 main {
-    background-color: darkslateblue;
     flex: 1 0 auto;
 }
 
@@ -38,7 +38,6 @@ h1 {
 }
 
 #how-to {
-    background-color: rgba(153, 152, 152, 0.5);
     border-radius: 5%;
     margin: 20px 20px;
 }
@@ -55,9 +54,10 @@ h1 {
     margin-left: 40px;
     margin-right: 40px;
     color: black;
-    background-color: darkred;
+    background-color: whitesmoke;
     text-decoration: none;
     border-radius: 3%;
+    border: 1px solid black;
     padding: 5%;
 }
 
@@ -71,7 +71,7 @@ h1 {
 
 /*  Footer styling  */
 footer {
-    background-color: white;
+         background-color: black;
 }
 
 #social-networks {
@@ -85,7 +85,7 @@ footer {
 #social-networks i {
     font-size: 150%;
     padding: 5%;
-    color: black;
+    color: white;
 }
 
 /* Media query: tablets and larger (768px and up) */
