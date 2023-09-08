@@ -101,5 +101,10 @@ startGame = () => {
     questionCounter = 0
     score = 0
     availableQuestions = (...questions)
+    getNewQuestion()
+}
+
+getNewQuestion = () => {
+    
 }
 
