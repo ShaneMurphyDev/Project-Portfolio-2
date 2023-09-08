@@ -6,4 +6,5 @@ const progressBarFull = document.querySelector('#progressBarFull');
 
 let currentQuestion = {}
 let acceptingAnswers = true
-
+let score = '0'
+let questionCounter = '0'
