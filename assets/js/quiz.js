@@ -93,3 +93,9 @@ let questions = [
         answer: 2,
     },
 ]
+
+const SCORE_POINTS: 10
+const MAX_QUESTIONS: 10
+
+
+
