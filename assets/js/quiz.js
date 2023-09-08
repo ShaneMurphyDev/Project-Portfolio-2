@@ -100,5 +100,6 @@ const MAX_QUESTIONS: 10
 startGame = () => {
     questionCounter = 0
     score = 0
+    availableQuestions = (...questions)
 }
 
