@@ -3,6 +3,41 @@
     justify-content: center;
 }
 
+.hud-prefix {
+    text-align: center;
+    font-size: 130%;
+}
+
+.hud-main-text {
+    text-align: center;
+}
+
+.score {
+    text-align: center;
+}
+
+#question {
+    font-size: 150%;
+}
+
+#progress-Bar {
+    height: 20px;
+    width: 150px;
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#progress-Bar-Full {
+    height: 100%;
+    width: 0%;
+    background-color: black;
+}
+
+
+
 .choice-container {
     display: flex;
     width: 100%;
@@ -23,7 +58,7 @@
 .choice-text {
 font-size: larger;
 width: 100%;
-padding-left: 20%;
+padding-left: 32%;
     }
 
     .correct {
