@@ -12,6 +12,14 @@ username.addEventListener('keyup', () => {
 
 saveHighScore = e => {
     e.preventDefault()
+    const score = {
+        score: mostRecentScore,
+        name: username.value
+    }
 
+    highScores.push(score)
 
+    highScores.sort((a,b,) => {
+        return b.score - a.score
+    })
 }
