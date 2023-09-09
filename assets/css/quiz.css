@@ -30,13 +30,14 @@
     width: 100%;
     height: 25px;
     border: 2px solid black;
-    background-color: white;
+    background-color: black;
 }
 
 #progress-Bar-Full {
     height: 100%;
     width: 0%;
-    background-color: black;
+    background-color: white;
+    transition: width 0.3s;
 }
 
 h2 {
