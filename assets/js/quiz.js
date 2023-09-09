@@ -141,6 +141,9 @@ getNewQuestion = () => {
             if(classToApply === 'correct') {
                 incrementScore(SCORE_POINTS)
             }
+
+            selectedChoice.parentElement.classList.add(classToApply)
+            
             
         })
     })
