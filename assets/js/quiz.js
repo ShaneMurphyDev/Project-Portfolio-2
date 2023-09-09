@@ -128,7 +128,7 @@ getNewQuestion = () => {
         acceptingAnswers = true
     }
 
-    choice.forEach(choice => {
+    choices.forEach(choice => {
         choice.addEvenListener('click', e, => {
             if(!acceptingAnswers) return
 
@@ -143,7 +143,13 @@ getNewQuestion = () => {
             }
 
             selectedChoice.parentElement.classList.add(classToApply)
-            
+
+            setTimeout{() =>{
+                selectedChoice.parentElement.classList.remove(classToApply)
+                getNewQuestion()
+            }, 10
+        }
+
             
         })
     })
