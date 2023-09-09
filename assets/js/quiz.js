@@ -35,7 +35,7 @@ let questions = [
         choice2: 'A parliament',
         choice3: 'A Posse',
         choice4: 'A murder',
-        answer: 3,
+        answer: 2,
     },
     {
         question: 'What shape is a goats pupils?',
@@ -132,33 +132,34 @@ const getNewQuestion = () => {
 
 choices.forEach(choice => {
     choice.addEventListener('click', e => {
-        if(!acceptingAnswers) return
+        if (!acceptingAnswers) return;
 
-            acceptingAnswers = false
-            const selectedChoice = e.target
-            const selectedAnswer = selectedChoice.dataset['number']
+        acceptingAnswers = false;
+        const selectedChoice = e.target;
+        const selectedAnswer = selectedChoice.dataset['number'];
 
-            let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'
+        let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
 
-            if(classToApply === 'correct') {
-        incrementScore(SCORE_POINTS);
-    }
+        if (classToApply === 'correct') {
+            incrementScore(SCORE_POINTS);
+        }
 
-    selectedChoice.parentElement.classList.add(classToApply);
+        selectedChoice.parentElement.classList.add(classToApply);
 
-    setTimeout(() => {
-        selectedChoice.parentElement.classList.remove(classToApply)
-        getNewQuestion()
+        setTimeout(() => {
+            selectedChoice.parentElement.classList.remove(classToApply);
+            getNewQuestion();
 
-    }, 10)
-})
-    })
+        }, 1250);
+    });
+});
 
-    incrementScore = num => {
-        score +=num
-        scoreText.innerText = score
-    }
+function incrementScore(num) {
+    score += num;
+    scoreText.innerText = score;
+}
 
-    startGame()
+
+startGame();
 
 
