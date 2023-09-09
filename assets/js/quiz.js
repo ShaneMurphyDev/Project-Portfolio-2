@@ -129,9 +129,12 @@ getNewQuestion = () => {
     }
 
     choice.forEach(choice => {
-        choice.addEvenListener('click', => {
+        choice.addEvenListener('click', e, => {
             if(!acceptingAnswers) return
 
+            acceptingAnswers = false
+            const selectedChoice = e.target
+            const selectedAnswer = selectedChoice.dataset{'number'}
             
         })
     })
