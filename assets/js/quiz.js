@@ -94,7 +94,7 @@ let questions = [
     },
 ]
 
-const SCORE_POINTS: 10
+const SCORE_POINTS: 1
 const MAX_QUESTIONS: 10
 
 startGame = () => {
@@ -125,5 +125,15 @@ getNewQuestion = () => {
         })
 
         availableQuestions.slice(questionsIndex, 1)
+        acceptingAnswers = true
     }
+
+    choice.forEach(choice => {
+        choice.addEvenListener('click', => {
+            if(!acceptingAnswers) return
+
+            
+        })
+    })
+
 
