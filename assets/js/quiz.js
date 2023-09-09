@@ -1,8 +1,8 @@
 const question = document.querySelector('#question');
 const choices = Array.from(document.querySelectorAll('.choice-text'));
-const progressText = document.querySelector('#progress-Text'); // Corrected the ID here
-const scoreText = document.querySelector('#hud-main-text'); // Corrected the ID here
-const progressBarFull = document.querySelector('#progress-Bar-full'); // Corrected the ID here
+const progressText = document.querySelector('#progress-Text');
+const scoreText = document.querySelector('#hud-main-text');
+const progressBarFull = document.querySelector('#progress-Bar-full');
 
 
 let currentQuestion = {};
