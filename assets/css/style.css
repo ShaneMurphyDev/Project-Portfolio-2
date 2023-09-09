@@ -23,7 +23,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 15%;
+    margin-top: 5%;
 }
 
 #home {
@@ -45,7 +45,7 @@ h1 {
     margin-left: 40px;
     margin-right: 40px;
     color: black;
-    background-color: antiquewhite;
+    background-color: white;
     text-decoration: none;
     border-radius: 3%;
     border: 1px solid black;
@@ -57,25 +57,27 @@ h1 {
     transition: transform 100ms;
     transform: scale(1.02);
     box-shadow: 3px black;
-}  #how-to {
-     border-radius: 5%;
-     margin: 15px 15px;
- }
+}
 
- .how-to-text {
-     text-align: center;
-     justify-items: center;
-     margin: 20px 0;
- }
+#how-to {
+    border-radius: 5%;
+    margin: 15px 15px;
+}
 
- p {
-     margin: 10px 0;
- }
+.how-to-text {
+    text-align: center;
+    margin: 20px 0;
+}
+
+p {
+    text-align: center;
+    margin: 10px 0;
+}
 
 
 /*  Footer styling  */
 footer {
-         background-color: black;
+    background-color: black;
 }
 
 #social-networks {
@@ -93,11 +95,7 @@ footer {
 }
 
 /* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px) {
-
-}
+@media screen and (min-width: 768px) {}
 
 /* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
-
-}
+@media screen and (min-width: 992px) {}
