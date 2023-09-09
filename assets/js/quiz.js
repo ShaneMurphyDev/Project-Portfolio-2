@@ -1,13 +1,14 @@
 const question = document.querySelector('#question');
 const choices = Array.from(document.querySelectorAll('.choice-text'));
-const progressText = document.querySelector('#progressText');
-const scoreText = document.querySelector('#score');
-const progressBarFull = document.querySelector('#progressBarFull');
+const progressText = document.querySelector('#progress-Text'); // Corrected the ID here
+const scoreText = document.querySelector('#hud-main-text'); // Corrected the ID here
+const progressBarFull = document.querySelector('#progress-Bar-full'); // Corrected the ID here
+
 
 let currentQuestion = {};
 let acceptingAnswers = true;
-let score = '0';
-let questionCounter = '0';
+let score = 0;
+let questionCounter = 0;
 let availableQuestions = [];
 
 
