@@ -98,14 +98,14 @@ const SCORE_POINTS = 1;
 const MAX_QUESTIONS = 10;
 
 
-startGame = () => {
+const startGame = () => {
     questionCounter = 0;
     score = 0;
     availableQuestions = [...questions];
     getNewQuestion();
 };
 
-getNewQuestion = () => {
+const getNewQuestion = () => {
     if (availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score);
 
@@ -146,9 +146,10 @@ choices.forEach(choice => {
     selectedChoice.parentElement.classList.add(classToApply);
 
     setTimeout(() => {
-        selectedChoice.parentElement.classList.remove(classToApply);
-        getNewQuestion();
-    }, 10);
+        selectedChoice.parentElement.classList.remove(classToApply)
+        getNewQuestion()
+
+    }, 10)
 })
     })
 
