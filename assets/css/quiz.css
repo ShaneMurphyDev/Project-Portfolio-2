@@ -1,3 +1,7 @@
+#quiz {
+    align-items: center;
+}
+
 #hud {
     display: flex;
     justify-content: center;
@@ -18,11 +22,6 @@
 
 .hud-main-text {
     text-align: center;
-}
-
-#quiz {
-    align-items: center;
-
 }
 
 .score {
