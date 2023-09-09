@@ -37,21 +37,6 @@ h1 {
     margin: 40px 20px;
 }
 
-#how-to {
-    border-radius: 5%;
-    margin: 15px 15px;
-}
-
-.how-to-text {
-    text-align: center;
-    justify-items: center;
-    margin: 20px 0;
-}
-
-p {
-    margin: 10px 0;
-}
-
 .btn {
     font-size: 150%;
     width: 100%;
@@ -72,7 +57,20 @@ p {
     transition: transform 100ms;
     transform: scale(1.02);
     box-shadow: 3px black;
-}
+}  #how-to {
+     border-radius: 5%;
+     margin: 15px 15px;
+ }
+
+ .how-to-text {
+     text-align: center;
+     justify-items: center;
+     margin: 20px 0;
+ }
+
+ p {
+     margin: 10px 0;
+ }
 
 
 /*  Footer styling  */
