@@ -153,4 +153,8 @@ choices.forEach(choice => {
 })
     })
 
+    incrementScore = num => {
+        score +=numscore
+    }
+
 
