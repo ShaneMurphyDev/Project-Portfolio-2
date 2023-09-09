@@ -154,8 +154,10 @@ choices.forEach(choice => {
     })
 
     incrementScore = num => {
-        score +=numscore
-        scoreText.innerText = scroll
+        score +=num
+        scoreText.innerText = score
     }
+
+    startGame()
 
 
