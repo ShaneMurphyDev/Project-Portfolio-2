@@ -124,6 +124,6 @@ getNewQuestion = () => {
             choice.innerText = currentQuestion['choice' + number]
         })
 
-        
+        availableQuestions.slice(questionsIndex, 1)
     }
 
