@@ -138,7 +138,9 @@ getNewQuestion = () => {
 
             let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect'
 
-            if()
+            if(classToApply === 'correct') {
+                incrementScore(SCORE_POINTS)
+            }
             
         })
     })
