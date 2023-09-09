@@ -2,18 +2,18 @@
     display: flex;
     justify-content: center;
 
-   
+
 }
 
 .hud-item {
-   justify-content: center;
-   margin-bottom: 2%;
+    justify-content: center;
+    margin-bottom: 2%;
 }
 
 .hud-prefix {
     text-align: center;
     font-size: 130%;
-    
+
 }
 
 .hud-main-text {
@@ -22,7 +22,7 @@
 
 #quiz {
     align-items: center;
-    
+
 }
 
 .btn-home {
@@ -39,8 +39,7 @@
 }
 
 #question {
-    font-size: 120%;
-    margin-bottom: 10%;
+    margin-bottom: 20%;
 }
 
 #progress-Bar {
@@ -60,35 +59,33 @@
     background-color: black;
 }
 
+h2 {
+    font-size: small;
+    background-color: aliceblue;
 
+}
 
 .choice-container {
-    display: flex;
-    width: 100%;
     border-radius: 5px;
-    background-color: antiquewhite;
+    background-color: white;
     margin-bottom: 5%;
-    font-size: 110%;
 }
 
 .choice-container:hover {
-        cursor: pointer;
-        transition: transform 100ms;
-        transform: scale(1.02);
-        box-shadow: 3px black;
-    }
+    cursor: pointer;
+    transition: transform 100ms;
+    transform: scale(1.02);
+    box-shadow: 3px black;
+}
 
 .choice-text {
-font-size: 120%;
-width: 100%;
-padding-left: 32%;
-    }
+    text-align: center;
+}
 
-    .correct {
-        background-color: limegreen;
-    }
+.correct {
+    background-color:green;
+}
 
-    .incorrect {
-        background-color: red;
-    }
-
+.incorrect {
+    background-color: red;
+}
