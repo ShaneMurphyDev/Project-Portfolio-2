@@ -69,6 +69,12 @@ h2 {
     border-radius: 5px;
     background-color: white;
     margin-bottom: 5%;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
 }
 
 .choice-container:hover {
