@@ -3,3 +3,7 @@
     list-style: none;
 }
 
+.high-score {
+    font-size: larger;
+    margin-bottom: 20px;
+}
