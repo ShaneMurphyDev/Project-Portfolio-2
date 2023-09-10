@@ -44,3 +44,20 @@ encouraged to play again to beat their high score</p>
 <p>I have tested my sites performance on Lighthouse and am happy with the results</p>
 
 <img src="assets/images/lighthouse.png" width="auto" height="auto"  alt="Lighthouse score preview">
+
+<h2> Unfixed Bugs </h2>
+<p>Progressbar. I was unable to get this feature working properly despite the code seeming to not have issues.
+Was unable to find and fix this issue</p>
+<p> 404 showing when it should not. A rare bug were the 404 will be loaded instead of the end page</p>
+
+<p> Acess control error</p>
+
+<h2>Credits</h2>
+
+<p>Credits Content: The icons used in this project are from: <https://fontawesome.com> </p>
+
+<p>Media: The photos used in this project are from: <https://pixabay.com></p>
+
+<p> General information learned on: <https://javascript.info><p>
+
+<p> Guide on progressbar: <https://www.youtube.com/watch?v=oshknEcjvqo></p>
