@@ -38,3 +38,9 @@ and compare cores to previous games. This will provide a positive feedback loop 
 encouraged to play again to beat their high score</p>
 
 <img src="assets/images/leaderboard.png" width="auto" height="auto"  alt="Leaderboard Page preview">
+
+<h2> Performance </h2>
+
+<p>I have tested my sites performance on Lighthouse and am happy with the results</p>
+
+<img src="assets/images/lighthouse.png" width="auto" height="auto"  alt="Lighthouse score preview">
