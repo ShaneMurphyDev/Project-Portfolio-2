@@ -11,7 +11,7 @@ let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
 
-
+/*  Questions  */
 let questions = [
     {
         question: 'What color is a Polar Bears skin?',
@@ -106,6 +106,7 @@ const startGame = () => {
     getNewQuestion();
 };
 
+/*  Main Game Logic  */
 const getNewQuestion = () => {
     if (availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score);
