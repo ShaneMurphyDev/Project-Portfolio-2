@@ -44,6 +44,20 @@ I have tested my sites performance on Lighthouse and am happy with the results.
 
 ![image of lighthouse performance](assets/images/lighthouse.png)
 
+# Validation
+
+## HTML validation
+
+![image of html validation](assets/images/htmlvalidation.png)
+
+## CSS validation
+
+![image of css validation](assets/images/cssvalidation.png)
+
+## JavaScript validation
+
+
+
 ## Unfixed Bugs
 
 1. Progressbar. I was unable to get this feature working properly despite the code seeming to not have issues.
