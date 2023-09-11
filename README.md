@@ -65,6 +65,9 @@ Was unable to find and fix this issue. Will impliment it again in the future
 
 2. 404 showing when it should not. A rare bug were the 404 will be loaded instead of the end page. 99% sure it's fixed
 
+## Live Link 
+<https://shanemurphydev.github.io/Project-Portfolio-2/>
+
 # Credits
 
 1. The icons used in this project are from: <https://fontawesome.com>
