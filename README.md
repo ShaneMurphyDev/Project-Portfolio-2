@@ -5,7 +5,7 @@ My goal is to create a fun and interactive experience for anyone that gives it a
 The topic will revolve around, you guessed it, the Animal Kingdom.
 I hope to combine all the skills I have learned thus far to create a pleasant and engaging time on my site.
 
-[image] = assets/images/responsive.png
+![image](assets/images/responsive.png)
 
 # Features
 
