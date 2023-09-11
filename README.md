@@ -11,7 +11,7 @@ I hope to combine all the skills I have learned thus far to create a pleasant an
 
 ## General Layout
 
-![image] = assets/images/wireframe.png
+![image of wireframes](assets/images/wireframe.png)
 
 ## Home page
 
@@ -19,7 +19,7 @@ The home page will include a button for starting the game, and checking the lead
 I plan to keep this page simple and understandable. I will also create a How To play section
 to introduce players to the core concepts of the game.
 
-[image] = assets/images/Homepage.png
+![image of home page](assets/images/Homepage.png)
 
 ## Quiz Page
 
@@ -27,7 +27,7 @@ I plan to inculde a question counter, score, progressbar and a responsive questi
 the goal is to keep everything very clear and easy to follow. I choose a purple and blue gradiant across the site which I think 
 has very nice contrast
 
-[image] = assets/images/quizpage.png
+![image of quiz page](assets/images/quizpage.png)
 
 
 ## Leaderboard
@@ -36,13 +36,13 @@ The Leaderboard will include the ability to save your score and username,
 and compare cores to previous games. This will provide a positive feedback loop were the player is 
 encouraged to play again to beat their high score
 
-[image] = assets/images/leaderboard.png
+![image of leaderboard](assets/images/leaderboard.png)
 
 # Performance
 
 I have tested my sites performance on Lighthouse and am happy with the results.
 
-[image] = assets/images/lighthouse.png
+![image of lighthouse performance](assets/images/lighthouse.png)
 
 ## Unfixed Bugs
 
@@ -54,10 +54,10 @@ Was unable to find and fix this issue.
 
 # Credits
 
-Credits Content: The icons used in this project are from: <https://fontawesome.com>
+1. The icons used in this project are from: <https://fontawesome.com>
 
-Media: The photos used in this project are from: <https://pixabay.com>
+2. The photos used in this project are from: <https://pixabay.com>
 
-General information learned on: <https://javascript.info>
+3. General information learned on: <https://javascript.info>
 
-Guide on progressbar: <https://www.youtube.com/watch?v=oshknEcjvqo>
+4. Guide on progressbar: <https://www.youtube.com/watch?v=oshknEcjvqo>
