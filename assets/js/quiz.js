@@ -107,7 +107,7 @@ const startGame = () => {
     getNewQuestion();
 };
 
-/*  Main Game Logic  */
+/*  Takes to end page if there are no questions left */
 const getNewQuestion = () => {
     if (availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score);
