@@ -112,7 +112,7 @@ const getNewQuestion = () => {
     if (availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score);
 
-        return window.location.assign('/end.html');
+        return window.location.assign('end.html');
     }
 
     questionCounter++;
@@ -140,7 +140,8 @@ choices.forEach(choice => {
         acceptingAnswers = false;
         const selectedChoice = e.target;
         const selectedAnswer = selectedChoice.dataset['number'];
-
+        
+        /*  Applies Green or Red on Correct or Incorrect Answer and awards points*/
         let classToApply = selectedAnswer == currentQuestion.answer ? 'correct' : 'incorrect';
 
         if (classToApply === 'correct') {
@@ -153,7 +154,7 @@ choices.forEach(choice => {
             selectedChoice.parentElement.classList.remove(classToApply);
             getNewQuestion();
 
-        }, 1250);
+        }, 800);
     });
 });
 
