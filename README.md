@@ -1,63 +1,63 @@
-<h1>Animal Quizdom </h1>
+# Animal Quizdom
 
-<p>Animal Quizdom is a general knowledge quiz I have created using HTML, CSS and JaveScript.
+Animal Quizdom is a general knowledge quiz I have created using HTML, CSS and JaveScript.
 My goal is to create a fun and interactive experience for anyone that gives it a try. 
 The topic will revolve around, you guessed it, the Animal Kingdom.
 I hope to combine all the skills I have learned thus far to create a pleasant and engaging time on my site.
-</p>
 
-<img src="assets/images/responsive.png" width="auto" height="auto"  alt="Screens preview">
+[image] = assets/images/responsive.png
 
-<h2> Features </h2>
+# Features
 
-<h3>General Layout</h3>
+## General Layout
 
-<img src="assets/images/wireframe.png" width="auto" height="auto"  alt="Wireframe preview">
+[image] = assets/images/wireframe.png
 
-<h3>Home page</h3>
+## Home page
 
-<p>The home page will include a button for starting the game, and checking the leaderboard.
+The home page will include a button for starting the game, and checking the leaderboard.
 I plan to keep this page simple and understandable. I will also create a How To play section
-to introduce players to the core concepts of the game.</p>
+to introduce players to the core concepts of the game.
 
-<img src="assets/images/Homepage.png" width="auto" height="auto"  alt="Home Page preview">
+[image] = assets/images/Homepage.png
 
-<h3>Quiz Page</h3>
+## Quiz Page
 
-<p>I plan to inculde a question counter, score, progressbar and a responsive questions and answers section
+I plan to inculde a question counter, score, progressbar and a responsive questions and answers section
 the goal is to keep everything very clear and easy to follow. I choose a purple and blue gradiant across the site which I think 
-has very nice contrast</p>
+has very nice contrast
 
-<img src="assets/images/quizpage.png" width="auto" height="auto"  alt="Quiz Page preview">
+[image] = assets/images/quizpage.png
 
 
-<h3> Leaderboard</h3>
+## Leaderboard
 
-<p>The Leaderboard will include the ability to save your score and username,
+The Leaderboard will include the ability to save your score and username,
 and compare cores to previous games. This will provide a positive feedback loop were the player is 
-encouraged to play again to beat their high score</p>
+encouraged to play again to beat their high score
 
-<img src="assets/images/leaderboard.png" width="auto" height="auto"  alt="Leaderboard Page preview">
+[image] = assets/images/leaderboard.png
 
-<h2> Performance </h2>
+# Performance
 
-<p>I have tested my sites performance on Lighthouse and am happy with the results</p>
+I have tested my sites performance on Lighthouse and am happy with the results.
 
-<img src="assets/images/lighthouse.png" width="auto" height="auto"  alt="Lighthouse score preview">
+[image] = assets/images/lighthouse.png
 
-<h2> Unfixed Bugs </h2>
-<p>Progressbar. I was unable to get this feature working properly despite the code seeming to not have issues.
-Was unable to find and fix this issue</p>
-<p> 404 showing when it should not. A rare bug were the 404 will be loaded instead of the end page</p>
+## Unfixed Bugs
 
-<p> Acess control error</p>
+1. Progressbar. I was unable to get this feature working properly despite the code seeming to not have issues.
+Was unable to find and fix this issue.
 
-<h2>Credits</h2>
+2. 404 showing when it should not. A rare bug were the 404 will be loaded instead of the end page. 99% sure it's fixed
 
-<p>Credits Content: The icons used in this project are from: <https://fontawesome.com> </p>
 
-<p>Media: The photos used in this project are from: <https://pixabay.com></p>
+# Credits
 
-<p> General information learned on: <https://javascript.info><p>
+Credits Content: The icons used in this project are from: <https://fontawesome.com>
 
-<p> Guide on progressbar: <https://www.youtube.com/watch?v=oshknEcjvqo></p>
+Media: The photos used in this project are from: <https://pixabay.com>
+
+General information learned on: <https://javascript.info>
+
+Guide on progressbar: <https://www.youtube.com/watch?v=oshknEcjvqo>
