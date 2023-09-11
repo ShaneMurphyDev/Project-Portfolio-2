@@ -51,7 +51,6 @@ Was unable to find and fix this issue.
 
 2. 404 showing when it should not. A rare bug were the 404 will be loaded instead of the end page. 99% sure it's fixed
 
-
 # Credits
 
 1. The icons used in this project are from: <https://fontawesome.com>
