@@ -95,6 +95,7 @@ let questions = [
     },
 ];
 
+/*Points per correct answer and max number of questions*/
 const SCORE_POINTS = 1;
 const MAX_QUESTIONS = 10;
 
